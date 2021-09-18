@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+.container{
+      width: 80%;  
+      height: 50%;
+     position: relative;
+     margin: 0 auto;
+     top: 10px;
+
+}
+#image{
+    width: 900px;
+    height: 500px;
+    border: 10px solid black;
+    position: relative;
+}
+
+#previous{ 
+    cursor: pointer;
+    position: absolute;
+    font-weight: bolder;
+    top: 45%;
+    color: black;
+    background: white;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 8px 15px;
+    right: 20px;
+}
+#next{ 
+    cursor: pointer;
+    position: absolute;
+    font-weight: bolder;
+    top: 45%;
+    color: black;
+    background: white;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 8px 15px;
+    left: 20px;
+}
+
+
+.caption{
+   text-align: center;
+   font-size: large;
+}
+
+
